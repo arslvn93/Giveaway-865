@@ -1,52 +1,10 @@
 const config = {
-  "modalQuestions": [
-    {
-      "id": "favorite_local_events",
-      "questionText": "Which type of local events do you enjoy attending most in Toronto?",
-      "options": [
-        { "value": "major_league_sports", "text": "Major league sports games" },
-        { "value": "food_wine_festivals", "text": "Food and wine festivals" },
-        { "value": "music_concerts", "text": "Music concerts" },
-        { "value": "art_exhibitions", "text": "Art exhibitions" }
-      ]
-    },
-    {
-      "id": "lifestyle_preferences",
-      "questionText": "On a typical weekend, how do you prefer to spend your time?",
-      "options": [
-        { "value": "exploring_real_estate", "text": "Exploring new real estate developments or open houses" },
-        { "value": "relaxing_with_friends_family", "text": "Relaxing at home with friends and family" },
-        { "value": "outdoor_activities", "text": "Engaging in outdoor activities like hiking or biking" },
-        { "value": "dining_trendy_places", "text": "Dining at trendy restaurants or cafes" }
-      ]
-    },
-    {
-      "id": "travel_habits",
-      "questionText": "How do you typically spend your vacations?",
-      "options": [
-        { "value": "international_destinations", "text": "Traveling to international destinations" },
-        { "value": "local_attractions", "text": "Visiting local attractions around Toronto" },
-        { "value": "staycations_luxury", "text": "Taking staycations in luxury accommodations" },
-        { "value": "road_trips", "text": "Going on road trips to explore new areas" }
-      ]
-    },
-    {
-      "id": "community_engagement",
-      "questionText": "How involved are you in community activities or neighborhood associations?",
-      "options": [
-        { "value": "very_involved", "text": "Very involved, I attend meetings and events regularly" },
-        { "value": "somewhat_involved", "text": "Somewhat involved, I participate occasionally" },
-        { "value": "interested_not_involved", "text": "Not very involved, but I’m interested in what's happening" },
-        { "value": "not_involved", "text": "Not involved at all" }
-      ]
-    }
-  ],
   "giveaway": {
     "name": "Jays Tickets Giveaway",
     "heroHeadline": "Win Big with <span class='highlight'>Jays Tickets!</span>",
     "heroSubheadline": "Celebrate Canada Day in Style! Join us for your chance to win tickets to an amazing Jays game!",
     "promotionDates": "Promotion runs from June 18, 2025 until July 1, 2025.",
-    "endDate": "2025-07-02T23:59:59",
+    "endDate": "2025-07-03T03:59:00.000Z",
     "heroBackgroundImageUrl": "https://api.typeform.com/responses/files/4d70b80ce239ac7cb2403d6b95dd028bdd857cb5c8f1881dd46254015f5d135c/Screenshot_20250616_142200_Canva.jpg",
     "heroCtaText": "Enter Now",
     "entryFormCtaText": "Count Me In!",
@@ -55,9 +13,6 @@ const config = {
     "successModalEmailPrompt": "Make sure to check your email for the winner announcement!"
   },
   "prize": {
-    "name": "$100 Value Jays Tickets",
-    "value": "$100 Value",
-    "description": "Experience the thrill of a live Blue Jays game with tickets worth $100. A perfect summer outing to enjoy baseball excitement and make unforgettable memories!",
     "images": [
       {
         "src": "https://cdn.pixabay.com/photo/2017/08/07/15/10/hands-2607197_1280.jpg",
@@ -73,12 +28,30 @@ const config = {
       }
     ],
     "includedItems": [
-      { "icon": "fas fa-ticket-alt", "text": "$100 worth of tickets to a Jays game" },
-      { "icon": "fas fa-baseball-ball", "text": "Experience the excitement of live baseball" },
-      { "icon": "fas fa-users", "text": "Perfect for friends or family outings" },
-      { "icon": "fas fa-check-circle", "text": "No purchase necessary to enter" },
-      { "icon": "fas fa-bolt", "text": "Quick and easy entry at our booth" }
+      {
+        "icon": "fas fa-ticket-alt",
+        "text": "$100 worth of tickets to a Jays game"
+      },
+      {
+        "icon": "fas fa-baseball-ball",
+        "text": "Experience the excitement of live baseball"
+      },
+      {
+        "icon": "fas fa-users",
+        "text": "Perfect for friends or family outings"
+      },
+      {
+        "icon": "fas fa-check-circle",
+        "text": "No purchase necessary to enter"
+      },
+      {
+        "icon": "fas fa-bolt",
+        "text": "Quick and easy entry at our booth"
+      }
     ],
+    "name": "$100 Value Jays Tickets",
+    "value": "$100 Value",
+    "description": "Experience the thrill of a live Blue Jays game with tickets worth $100. A perfect summer outing to enjoy baseball excitement and make unforgettable memories!",
     "limitedTimeOfferText": "⚾ Celebrate Canada Day with Jays Tickets!",
     "ctaButtonText": "Enter to Win!"
   },
@@ -101,29 +74,30 @@ const config = {
       }
     ],
     "highlights": [
-      { "icon": "fas fa-baseball-ball", "text": "Enjoy the thrill of baseball" },
-      { "icon": "fas fa-sun", "text": "Perfect summer giveaway" },
-      { "icon": "fas fa-smile", "text": "Free to enter!" }
+      {
+        "icon": "fas fa-baseball-ball",
+        "text": "Enjoy the thrill of baseball"
+      },
+      {
+        "icon": "fas fa-sun",
+        "text": "Perfect summer giveaway"
+      },
+      {
+        "icon": "fas fa-smile",
+        "text": "Free to enter!"
+      }
     ]
   },
   "entryForm": {
+    "sharePlatforms": {
+      "facebook": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgiveaway-865.netlify.app%2Fadmin",
+      "twitter": "https://twitter.com/intent/tweet?url=https%3A%2F%2Fgiveaway-865.netlify.app%2Fadmin&text=Win%20Jays%20tickets%20for%20Canada%20Day!"
+    },
     "subtitle": "Enter your details below for your chance to win Jays tickets worth $100!",
     "entryCountText": "Join hundreds already excited to win!",
-    "socialSharePrompt": "Share the Jays fun with your friends:",
-    "sharePlatforms": {
-      "facebook": "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(window.location.href),
-      "twitter": "https://twitter.com/intent/tweet?url=" + encodeURIComponent(window.location.href) + "&text=" + encodeURIComponent("Win Jays tickets for Canada Day!")
-    }
+    "socialSharePrompt": "Share the Jays fun with your friends:"
   },
   "rules": {
-    "fairSelectionInfo": {
-      "title": "Fair & Square Selection",
-      "text": "Winner selection is completely random and unbiased, using a certified random number generator."
-    },
-    "importantNotice": {
-      "title": "Winner Notification - Check Your Email!",
-      "text": "The winner will be contacted by email after the July 2, 2025 draw. Be sure to check your inbox and spam folder."
-    },
     "faq": [
       {
         "q": "Who is eligible to enter?",
@@ -154,18 +128,26 @@ const config = {
       "Double-check your email for accuracy.",
       "Add the sender email to your contacts to ensure notification delivery.",
       "Follow Sky Group on social media for updates and winner announcements."
-    ]
+    ],
+    "fairSelectionInfo": {
+      "title": "Fair & Square Selection",
+      "text": "Winner selection is completely random and unbiased, using a certified random number generator."
+    },
+    "importantNotice": {
+      "title": "Winner Notification - Check Your Email!",
+      "text": "The winner will be contacted by email after the July 2, 2025 draw. Be sure to check your inbox and spam folder."
+    }
   },
   "footerContact": {
+    "social": {
+      "facebook": "https://www.facebook.com/theskygroupre",
+      "instagram": "https://www.instagram.com/theskygroup_re"
+    },
     "organizerName": "Sky Group",
     "organizerLogoUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/8e0c10a0-da43-409c-b191-91135b7161ff/777776b6-d7a4-424e-8ea4-333ed3be7501/The_Sky_Group_X_Property.ca_cobranded_logo.pdf",
     "email": "shar@theskygroup.ca",
     "phone": "1 647 887 4996",
     "address": "36 Distillery Lane Unit 500 Toronto M5A3C4",
-    "social": {
-      "facebook": "https://www.facebook.com/theskygroupre",
-      "instagram": "https://www.instagram.com/theskygroup_re"
-    },
     "copyrightOwner": "Sky Group"
   },
   "meta": {
@@ -173,9 +155,15 @@ const config = {
     "navBrandLogoText": "Sky Group"
   },
   "settings": {
+    "confettiColors": [
+      "#003366",
+      "#0066CC",
+      "#FF0000",
+      "#FFFFFF"
+    ],
     "ghlWebhookUrl": "https://n8n.salesgenius.co/webhook/giveaway",
-    "theme": "light",
-    "confettiColors": ["#003366", "#0066CC", "#FF0000", "#FFFFFF"],
+    "theme": "dark",
+    "webhookUrl": "https://n8n.salesgenius.co/webhook/giveawayupdate",
     "showCountdownInHero": true
   },
   "deploymentInfo": {
@@ -184,5 +172,95 @@ const config = {
     "tag": "Jays Tickets Canada Day 2025",
     "netlifyUrl": "http://Giveaway-865.netlify.app",
     "netlifyId": "1003266102"
-  }
+  },
+  "modalQuestions": [
+    {
+      "id": "q_auto_1750112222347_0",
+      "questionText": "Which type of local events do you enjoy attending most in Toronto?",
+      "options": [
+        {
+          "value": "Major league sports games",
+          "text": "Major league sports games"
+        },
+        {
+          "value": "Food and wine festivals",
+          "text": "Food and wine festivals"
+        },
+        {
+          "value": "Music concerts",
+          "text": "Music concerts"
+        },
+        {
+          "value": "Art exhibitions",
+          "text": "Art exhibitions"
+        }
+      ]
+    },
+    {
+      "id": "q_auto_1750112222348_1",
+      "questionText": "On a typical weekend, how do you prefer to spend your time?",
+      "options": [
+        {
+          "value": "Exploring new real estate developments or open houses",
+          "text": "Exploring new real estate developments or open houses"
+        },
+        {
+          "value": "Relaxing at home with friends and family",
+          "text": "Relaxing at home with friends and family"
+        },
+        {
+          "value": "Engaging in outdoor activities like hiking or biking",
+          "text": "Engaging in outdoor activities like hiking or biking"
+        },
+        {
+          "value": "Dining at trendy restaurants or cafes",
+          "text": "Dining at trendy restaurants or cafes"
+        }
+      ]
+    },
+    {
+      "id": "q_auto_1750112222349_2",
+      "questionText": "How do you typically spend your vacations?",
+      "options": [
+        {
+          "value": "Traveling to international destinations",
+          "text": "Traveling to international destinations"
+        },
+        {
+          "value": "Visiting local attractions around Toronto",
+          "text": "Visiting local attractions around Toronto"
+        },
+        {
+          "value": "Taking staycations in luxury accommodations",
+          "text": "Taking staycations in luxury accommodations"
+        },
+        {
+          "value": "Going on road trips to explore new areas",
+          "text": "Going on road trips to explore new areas"
+        }
+      ]
+    },
+    {
+      "id": "q_auto_1750112222349_3",
+      "questionText": "How involved are you in community activities or neighborhood associations?",
+      "options": [
+        {
+          "value": "Very involved, I attend meetings and events regularly",
+          "text": "Very involved, I attend meetings and events regularly"
+        },
+        {
+          "value": "Somewhat involved, I participate occasionally",
+          "text": "Somewhat involved, I participate occasionally"
+        },
+        {
+          "value": "Not very involved, but I’m interested in what's happening",
+          "text": "Not very involved, but I’m interested in what's happening"
+        },
+        {
+          "value": "Not involved at all",
+          "text": "Not involved at all"
+        }
+      ]
+    }
+  ]
 };
