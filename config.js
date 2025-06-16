@@ -136,7 +136,7 @@ const config = {
       "instagram": "https://www.instagram.com/theskygroup_re"
     },
     "organizerName": "Sky Group",
-    "organizerLogoUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/8e0c10a0-da43-409c-b191-91135b7161ff/777776b6-d7a4-424e-8ea4-333ed3be7501/The_Sky_Group_X_Property.ca_cobranded_logo.pdf",
+    "organizerLogoUrl": "https://assets.cdn.filesafe.space/XJJFJP9sLnGUcLF1yfop/media/68278639dbfc24a322fd422d.png",
     "email": "shar@theskygroup.ca",
     "phone": "1 647 887 4996",
     "address": "36 Distillery Lane Unit 500 Toronto M5A3C4",
@@ -167,7 +167,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1750112455977_0",
+      "id": "q_auto_1750112572864_0",
       "questionText": "Which type of local events do you enjoy attending most in Toronto?",
       "options": [
         {
@@ -189,7 +189,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1750112455977_1",
+      "id": "q_auto_1750112572864_1",
       "questionText": "On a typical weekend, how do you prefer to spend your time?",
       "options": [
         {
@@ -211,7 +211,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1750112455977_2",
+      "id": "q_auto_1750112572864_2",
       "questionText": "How do you typically spend your vacations?",
       "options": [
         {
@@ -233,7 +233,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1750112455977_3",
+      "id": "q_auto_1750112572864_3",
       "questionText": "How involved are you in community activities or neighborhood associations?",
       "options": [
         {
