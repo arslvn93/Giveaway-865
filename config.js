@@ -5,7 +5,7 @@ const config = {
     "heroSubheadline": "Celebrate Canada Day in Style! Join us for your chance to win tickets to an amazing Jays game!",
     "promotionDates": "Promotion runs from June 18, 2025 until July 1, 2025.",
     "endDate": "2025-07-03T03:59:00.000Z",
-    "heroBackgroundImageUrl": "https://api.typeform.com/responses/files/4d70b80ce239ac7cb2403d6b95dd028bdd857cb5c8f1881dd46254015f5d135c/Screenshot_20250616_142200_Canva.jpg",
+    "heroBackgroundImageUrl": "https://img.mlbstatic.com/mlb-images/image/upload/t_16x9/t_w2208/mlb/ur9oqbxzooxxmelfdfrg.jpg",
     "heroCtaText": "Enter Now",
     "entryFormCtaText": "Count Me In!",
     "successModalHeaderText": "🎉 You're entered for the Jays Tickets Giveaway! 🎉",
@@ -175,7 +175,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1750112222347_0",
+      "id": "q_auto_1750112285644_0",
       "questionText": "Which type of local events do you enjoy attending most in Toronto?",
       "options": [
         {
@@ -197,7 +197,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1750112222348_1",
+      "id": "q_auto_1750112285644_1",
       "questionText": "On a typical weekend, how do you prefer to spend your time?",
       "options": [
         {
@@ -219,7 +219,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1750112222349_2",
+      "id": "q_auto_1750112285644_2",
       "questionText": "How do you typically spend your vacations?",
       "options": [
         {
@@ -241,7 +241,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1750112222349_3",
+      "id": "q_auto_1750112285645_3",
       "questionText": "How involved are you in community activities or neighborhood associations?",
       "options": [
         {
