@@ -13,20 +13,7 @@ const config = {
     "successModalEmailPrompt": "Make sure to check your email for the winner announcement!"
   },
   "prize": {
-    "images": [
-      {
-        "src": "https://cdn.pixabay.com/photo/2017/08/07/15/10/hands-2607197_1280.jpg",
-        "alt": "Baseball game tickets"
-      },
-      {
-        "src": "https://cdn.pixabay.com/photo/2016/03/27/21/28/baseball-1289259_1280.jpg",
-        "alt": "Blue Jays game action"
-      },
-      {
-        "src": "https://cdn.pixabay.com/photo/2017/03/02/20/57/baseball-2115439_1280.jpg",
-        "alt": "Baseball stadium crowd"
-      }
-    ],
+    "images": [],
     "includedItems": [
       {
         "icon": "fas fa-ticket-alt",
@@ -175,7 +162,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1750112285644_0",
+      "id": "q_auto_1750112321344_0",
       "questionText": "Which type of local events do you enjoy attending most in Toronto?",
       "options": [
         {
@@ -197,7 +184,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1750112285644_1",
+      "id": "q_auto_1750112321344_1",
       "questionText": "On a typical weekend, how do you prefer to spend your time?",
       "options": [
         {
@@ -219,7 +206,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1750112285644_2",
+      "id": "q_auto_1750112321344_2",
       "questionText": "How do you typically spend your vacations?",
       "options": [
         {
@@ -241,7 +228,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1750112285645_3",
+      "id": "q_auto_1750112321344_3",
       "questionText": "How involved are you in community activities or neighborhood associations?",
       "options": [
         {
